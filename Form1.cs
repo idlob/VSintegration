@@ -29,5 +29,13 @@ namespace VSintegration
             if (panel3.Size.Height > 57 || panel3.Size.Height < 34) upDown *= -1;
             panel3.Size = new Size(panel3.Size.Width, panel3.Size.Height + upDown);
         }
+
+        private void panel1_DoubleClick(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+            Form2 frm = new Form2();
+            frm.Show();
+        }
+
     }
 }

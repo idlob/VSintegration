@@ -43,6 +43,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(57, 55);
             this.panel1.TabIndex = 0;
+            this.panel1.DoubleClick += new System.EventHandler(this.panel1_DoubleClick);
             // 
             // panel2
             // 
